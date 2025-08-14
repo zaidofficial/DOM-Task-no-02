@@ -1,0 +1,36 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .faqmid {
+            max-width: 1000px;
+            margin: auto;
+        }
+        .faqitems {
+            border: 2px solid #ccc;
+            margin-top: 7px;
+        }
+        .faqitems h2 {
+            background-color: yellowgreen;
+            padding: 10px;
+            position: relative;
+            cursor: pointer;
+        }
+        .faqitems h2 span {
+            position: absolute;
+            right: 10px;
+            cursor: pointer;
+        }
+        .faqitems p {
+            padding: 10px;
+            font-size: 18px;
+            line-height: 30px;
+            display: none;
+        }
+        .showAns {
+            display: block !important;
+        }
